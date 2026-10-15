@@ -112,7 +112,7 @@ This concurrently launches:
 ## 📁 Repository Structure
 
 ```
-pnr-bot/
+railpulse/
 ├── package.json               # Root scripts ("npm run dev")
 ├── start-dev.js               # Multi-service launcher (Bridge + FastAPI + Vite)
 ├── README.md                  # Complete documentation

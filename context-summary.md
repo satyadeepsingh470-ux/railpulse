@@ -1,7 +1,7 @@
 # 🚆 RailPulse • Project Context & Architecture Summary
 
 > **Last Updated:** October 15, 2026  
-> **Repository:** [github.com/satyadeepsingh470-ux/pnr-bot](https://github.com/satyadeepsingh470-ux/pnr-bot)  
+> **Repository:** [github.com/satyadeepsingh470-ux/railpulse](https://github.com/satyadeepsingh470-ux/railpulse)  
 > **Status:** Production-Ready MVP (Verified & Tested End-to-End)
 
 ---
@@ -157,7 +157,7 @@ The system supports two complementary ticket ingestion methods:
 ## 📁 Repository Directory Structure
 
 ```
-pnr-bot/
+railpulse/
 ├── .env                       # Local secrets (ignored from Git)
 ├── .env.example               # Root environment template
 ├── .gitignore                 # Comprehensive Git exclusion rules
