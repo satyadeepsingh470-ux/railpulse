@@ -1,0 +1,24 @@
+{
+  "name": "irctc-pnr-whatsapp-tracker",
+  "version": "1.0.0",
+  "description": "IRCTC Smart PNR & Waitlist Tracker with WhatsApp Alerts and Confirmation Probability Predictor",
+  "type": "module",
+  "scripts": {
+    "start": "node start-dev.js",
+    "dev": "node start-dev.js",
+    "backend": "cd backend && .venv/bin/uvicorn main:app --reload --port 8000",
+    "bridge": "cd whatsapp-bridge && node index.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "irctc",
+    "pnr",
+    "whatsapp",
+    "waitlist",
+    "prediction",
+    "baileys"
+  ],
+  "author": "",
+  "license": "ISC"
+}
